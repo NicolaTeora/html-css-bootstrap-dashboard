@@ -1,9 +1,18 @@
 /* Roots */
+:root{
+    --height-nav: 80px;
+}
 
+/* Nav */
+#nav_bar{
+    height: var(--height-nav);
+    background-color: antiquewhite;
+}
 
 /* Sidebar */
 #sidebar{
     width: 150px;
+    height: calc(100vh - var(--height-nav));
     background-color: darkblue;
     color: white;
 }
