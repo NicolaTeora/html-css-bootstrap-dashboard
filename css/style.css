@@ -1,0 +1,21 @@
+/* Roots */
+
+
+/* Sidebar */
+#sidebar{
+    width: 150px;
+    background-color: darkblue;
+    color: white;
+}
+
+/* Main table */
+#main-table{
+    width: 100%;
+    height: calc(100% - 50px);
+}
+
+@media all and (min-width:576px) {
+    #sidebar{
+        width: 200px;
+    }
+}
