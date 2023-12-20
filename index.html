@@ -15,32 +15,34 @@
 </head>
 <body>
 
-     <!-- Nav -->
-     <div id="nav_bar">
-
-     </div>
+    <!-- Nav -->
+    <div id="nav_bar" class="container-fluid d-flex align-items-center justify-content-between">
+        <div>logo</div>
+        <div>search-bar</div>
+        <div>button</div>
+    </div>
     <!-- End Nav -->
 
-    <div class="d-flex">
+    <main class="d-flex">
         <!-- SideBar -->
         <div id="sidebar">
             <div class="container h-100 d-flex flex-column">
-                <div>    
+                <div class="pt-2">    
                     <i class="fa-solid fa-house"></i>                    
                     <div class="d-none d-sm-inline-block">Home</div>
                 </div>
         
-                <div>
+                <div class="pt-2">
                     <i class="fa-solid fa-chart-simple"></i>    
                     <div class="d-none d-sm-inline-block">Stats</div>
                 </div>
         
-                <div>                    
+                <div class="pt-2">                    
                     <i class="fa-solid fa-signal"></i>                   
                     <div class="d-none d-sm-inline-block">Signals</div>
                 </div>
         
-                <div class="mt-auto">
+                <div class="mt-auto pb-2">
                     <i class="fa-solid fa-gear"></i>
                     <div class="d-none d-sm-inline-block">Admin</div>
                 </div>
@@ -50,12 +52,18 @@
     
         <!-- Main table -->
         <div id="main-table">
+            <header id="header" class="text-white">
+                <div class="container">
+                    header
+                </div>
+            </header>
+
             <div class="container">
-                main
+                table
             </div>
         </div>
         <!-- End Main table -->
-    </div>
+    </main>
     
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

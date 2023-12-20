@@ -1,6 +1,6 @@
 /* Roots */
 :root{
-    --height-nav: 80px;
+    --height-nav: 50px;
 }
 
 /* Nav */
@@ -11,7 +11,7 @@
 
 /* Sidebar */
 #sidebar{
-    width: 150px;
+    width: min-content;
     height: calc(100vh - var(--height-nav));
     background-color: darkblue;
     color: white;
@@ -21,6 +21,10 @@
 #main-table{
     width: 100%;
     height: calc(100% - 50px);
+}
+
+#header{  /* header */
+    background-color: #1b72e8;
 }
 
 @media all and (min-width:576px) {
