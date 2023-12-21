@@ -32,6 +32,10 @@
     background-color: rgba(22, 91, 186, 1);
 }
 
+.avatar{
+    width: 30px;
+}
+
 @media all and (min-width:576px) {
     #sidebar{
         width: 200px;
