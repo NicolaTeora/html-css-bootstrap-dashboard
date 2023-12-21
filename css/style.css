@@ -1,12 +1,16 @@
 /* Roots */
 :root{
     --height-nav: 50px;
+    --backgroundcolor-title: rgba(247, 247, 247, 1);
 }
 
 /* Nav */
 #nav_bar{
     height: var(--height-nav);
     background-color: rgba(248, 249, 250, 1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Sidebar */
@@ -22,6 +26,7 @@
 #main-table{
     width: 100%;
     height: calc(100% - 50px);
+    overflow: auto;
 }
 
 #header{  /* header */
@@ -35,7 +40,6 @@
 .avatar{
     width: 30px;
 }
-
 @media all and (min-width:576px) {
     #sidebar{
         width: 200px;
